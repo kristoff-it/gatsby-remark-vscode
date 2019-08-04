@@ -4,7 +4,7 @@
   "description": "Gatsby plugin to provide VS Code’s syntax highlighting to Markdown code fences",
   "main": "index.js",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "node scripts/scrapeBuiltinExtensions.js",
     "build": "node scripts/scrapeBuiltinExtensions.js",
     "check": "tsc -p .",
     "test": "jest",
