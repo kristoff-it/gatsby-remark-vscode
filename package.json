@@ -10,7 +10,7 @@
     "pretest": "npm run check && npm run build && prettier --check src/**/*.js",
     "prepublishOnly": "npm test",
     "format": "prettier --write src/**/*.js",
-    "postinstall": "node scripts/scrapeBuiltinExtensions.js"
+    "install": "scripts/scrapeBuiltinExtensions.js"
   },
   "repository": {
     "type": "git",
