@@ -276,7 +276,7 @@ function createPlugin() {
       const className = joinClassNames(wrapperClassName, joinThemeClassNames(themeClassNames), 'vscode-highlight');
       node.type = 'html';
       node.value = [
-        `<div class="${className}">`,
+        `<div class="vscode-highlight-wrapper">`,
         `<pre class="${className}" data-language="${languageName}">`,
         `<code class="vscode-highlight-code">`,
         htmlLines.join('\n'),
